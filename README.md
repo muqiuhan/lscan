@@ -1,5 +1,5 @@
 # lscan
-lscan is a tool which identifying library in statically linked/stripped binaries.
+lscan is a tool which identifies library in statically linked/stripped binaries.
 The tool is useful for the reverse engineering and computer forensics.
 It helps recognizing common functions in compiled binaries and determining libraries they are using.
 lscan uses FLIRT (Fast Library Identification and Recognition Technology) signatures to perform library identification.
@@ -37,6 +37,12 @@ Options:
 > $python lscan.py -s i386/sig/libpthread-2.23.sig -f i386/bin/bin-libpthread-2.23 -v
 
 > $python lscan.py -f i386/win32/bin/bin-libcmt.exe -s i386/win32/sig/msvcmrt.sig
+
+
+
+## Demo
+[Reverse Engineer a stripped binary with lscan and IDApro](https://github.com/maroueneboubakri/lscan/wiki/Reverse-Engineer-a-stripped-binary-with-lscan-and-IDApro). 
+
 
 ## Updating sig database
 
