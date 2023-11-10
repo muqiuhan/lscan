@@ -97,3 +97,4 @@ For coff lib format use pcf instead of pelf
 
 ## Authors
 - Marouene Boubakri <[marouene.boubakri@eurecom.fr](mailto:marouene.boubakri@eurecom.fr)>
+- Muqiu Han <[muqiu-han@outlook.com](mailto:muqiu-han@outlook.com)>
